@@ -1,0 +1,181 @@
+
+*{margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+.up{
+   
+    height: 15%;
+    gap: 10px;
+    color: white;
+    font-size: 0.9rem;
+    padding: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+   
+}
+#dd{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+ 
+
+}
+#dd:hover{
+    transition: all 0.5s ease-out;
+     height: 35px;
+     width: 35px;
+}
+
+#pp{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-right: 10px;
+   
+}
+#pp:hover{
+    transition: all 0.5s ease-out;
+    height: 35px;
+        width: 35px;
+}
+#an1{
+    margin-right: 5px;
+    color: blue;
+  
+
+}
+#an1:hover{
+    transition: all 0.5s ease-out;
+    color: white;
+    text-decoration: underline;
+
+}
+#an2{
+    margin-right: 5px;
+    color: blue;
+    
+}
+#an2:hover{
+    transition: all 0.5s ease-out;
+    color: white;
+    text-decoration: underline;
+
+}
+.mid{
+    row-gap: 20px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#google{
+    height: 6.0rem;
+    font-size: 6.0rem;
+font-family: 'Josefin Sans', sans-serif;
+color: white;
+}
+#input{
+
+    height: 40px;
+    width: 550px;
+   
+    border-radius: 40px;
+}
+#input:hover{
+    transition: all 1s ease-out;
+    color: #bdc1c6;;
+    border: 1px solid azure;
+}
+.botton{
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#button1{
+    height: 36px;
+    width: 129px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+color: #303134;
+}
+
+#button2{
+    height: 36px;
+    width: 143px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    color: #303134;
+}
+#button1:hover{
+    transition: all 2s ease-out;
+    border: 1px solid azure;
+    border-radius: 50px;
+    
+    }
+    
+    #button2:hover{
+        transition: all 2s ease-out;
+        border: 1px solid azure;
+        border-radius: 50px;
+    }
+
+.downt{
+    height: 15px;
+    display: flex;
+   
+}
+#downtext{
+    color:  #e8eaed;
+}
+#hoverit{
+    color: blue;
+}
+#hoverit:hover{
+    transition: all 2s ease-out;
+    color:  #e8eaed;
+    text-decoration: underline;
+}
+.foot{
+    height: 15%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+
+}
+.fotter1{
+    padding: 10px;
+  
+height: 50%;
+width: 100%;
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.fotter1 h1{
+   
+    font-size: 1.0rem;
+    color: whitesmoke;
+    background: none;
+}
